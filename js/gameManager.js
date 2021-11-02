@@ -39,7 +39,11 @@ let forname = function () {
 
 
 
+ let validate = function () {
+    let getNameInput = document.querySelector("#fname").value;
 
+    alert("your name is " + getNameInput);
+ }
 
 
 
